@@ -15,6 +15,7 @@
 		CB0188881DBE523C008092B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0188861DBE523C008092B8 /* LaunchScreen.storyboard */; };
 		CB0188931DBE523C008092B8 /* PJTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0188921DBE523C008092B8 /* PJTableViewDemoTests.m */; };
 		CB01889E1DBE523C008092B8 /* PJTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01889D1DBE523C008092B8 /* PJTableViewDemoUITests.m */; };
+		CB0188AD1DBE53A8008092B8 /* PJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0188AC1DBE53A8008092B8 /* PJTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CB0188991DBE523C008092B8 /* PJTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB01889D1DBE523C008092B8 /* PJTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJTableViewDemoUITests.m; sourceTree = "<group>"; };
 		CB01889F1DBE523C008092B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0188AB1DBE53A8008092B8 /* PJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJTableViewCell.h; sourceTree = "<group>"; };
+		CB0188AC1DBE53A8008092B8 /* PJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CB01887C1DBE523C008092B8 /* AppDelegate.m */,
 				CB01887E1DBE523C008092B8 /* ViewController.h */,
 				CB01887F1DBE523C008092B8 /* ViewController.m */,
+				CB0188AB1DBE53A8008092B8 /* PJTableViewCell.h */,
+				CB0188AC1DBE53A8008092B8 /* PJTableViewCell.m */,
 				CB0188811DBE523C008092B8 /* Main.storyboard */,
 				CB0188841DBE523C008092B8 /* Assets.xcassets */,
 				CB0188861DBE523C008092B8 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0188801DBE523C008092B8 /* ViewController.m in Sources */,
+				CB0188AD1DBE53A8008092B8 /* PJTableViewCell.m in Sources */,
 				CB01887D1DBE523C008092B8 /* AppDelegate.m in Sources */,
 				CB01887A1DBE523C008092B8 /* main.m in Sources */,
 			);
