@@ -11,9 +11,6 @@
 
 static NSString *ID = @"PJTableViewCell";
 
-#define WIDTH [[UIScreen mainScreen] bounds].size.width
-#define HEIGHT [[UIScreen mainScreen] bounds].size.height
-
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
 
@@ -53,16 +50,24 @@ static NSString *ID = @"PJTableViewCell";
     
     PJTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID forIndexPath:indexPath];
     if (!cell) {
-    
+        
         cell = [[PJTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
     }
+    
+    cell.name = @"我是周鹏钜";
+    //    [self drawCell:cell withIndexPath:indexPath];
     
     return cell;
 }
 
-- (void)drawCell:(PJTableViewCell *)cell withIndexPath:(NSIndexPath *)indexPath {
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    return 130;
+}
+
+- (void)drawCell:(PJTableViewCell *)cell withIndexPath:(NSIndexPath *)indexPath {
+    
+    [cell drawLayer];
 }
 
 @end

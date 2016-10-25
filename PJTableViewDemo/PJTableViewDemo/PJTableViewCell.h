@@ -10,4 +10,8 @@
 
 @interface PJTableViewCell : UITableViewCell
 
+- (void)drawLayer;
+
+@property (nonatomic, copy) NSString *name;
+
 @end
