@@ -92,7 +92,7 @@
     [[UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1] set];
     CGContextFillRect(context, CGRectMake(0, 100, WIDTH, 29.5));
     
-    NSString *name = _name;
+    NSString *name = _name; 
     [name drawInRect:CGRectMake(20, 20, 100, 20) withAttributes:@{NSForegroundColorAttributeName: [UIColor orangeColor]}];
     
     [[UIImage imageNamed:@"trade_gaoxin_bg_6"] drawInRect:CGRectMake(20, 50, 50, 50) blendMode:kCGBlendModeNormal alpha:1];
